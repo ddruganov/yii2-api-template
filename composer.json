@@ -1,0 +1,30 @@
+{
+  "name": "ddruganov/yii2-api-template",
+  "description": "Yii 2 Api Project Template",
+  "keywords": [
+    "yii2",
+    "api",
+    "project template"
+  ],
+  "type": "library",
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^8",
+    "yiisoft/yii2": "^2"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
