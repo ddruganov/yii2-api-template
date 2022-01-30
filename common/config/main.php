@@ -5,6 +5,7 @@ use yii\log\FileTarget;
 
 return [
     'vendorPath' => Yii::getAlias('@vendor'),
+    'bootstrap' => ['log'],
     'components' => [
         'log' => [
             'targets' => [
