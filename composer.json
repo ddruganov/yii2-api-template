@@ -6,11 +6,12 @@
     "api",
     "project template"
   ],
-  "type": "library",
-  "minimum-stability": "dev",
+  "type": "project",
+  "minimum-stability": "stable",
   "require": {
     "php": "^8",
-    "yiisoft/yii2": "^2"
+    "yiisoft/yii2": "^2",
+    "ddruganov/yii2-api-essentials": "dev-main"
   },
   "config": {
     "process-timeout": 1800,
